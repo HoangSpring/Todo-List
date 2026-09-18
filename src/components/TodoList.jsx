@@ -4,7 +4,7 @@ import TodoItem from './TodoItem';
 
 function TodoList({ todos, onToggle, onDelete }) {
   return (
-    <ul className="todo-list" role="list" aria-label="Danh sách công việc">
+    <ul className="todo-list" aria-label="Danh sách công việc">
       {todos.map(todo => (
         <TodoItem
           key={todo.id}
