@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Calendar as CalendarIcon, Tag, Flag } from 'lucide-react';
+import { Plus, Calendar as CalendarIcon } from 'lucide-react';
 import type { Priority, Category } from '../types';
 import { cn } from '../lib/utils';
 

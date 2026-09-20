@@ -1,8 +1,8 @@
 import React from 'react';
 import type { Task } from '../types';
 import { TaskItem } from './TaskItem';
-import { AnimatePresence, motion } from 'framer-motion';
 import { Layers } from 'lucide-react';
+import { AnimatePresence } from 'framer-motion';
 
 interface TaskListProps {
   tasks: Task[];
